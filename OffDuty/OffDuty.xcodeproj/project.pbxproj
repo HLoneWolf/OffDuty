@@ -514,7 +514,9 @@
 			baseConfigurationReference = E84C7FECB23B5BA3E24448B3 /* Pods-OffDuty.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
 				INFOPLIST_FILE = OffDuty/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.Jack.OffDuty;
 				PRODUCT_NAME = "$(TARGET_NAME)";
@@ -527,7 +529,9 @@
 			baseConfigurationReference = 012587C6DF4FA4876CDCF7B3 /* Pods-OffDuty.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
 				INFOPLIST_FILE = OffDuty/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.Jack.OffDuty;
 				PRODUCT_NAME = "$(TARGET_NAME)";
