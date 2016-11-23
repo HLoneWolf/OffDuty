@@ -14,7 +14,7 @@
                         <viewControllerLayoutGuide type="bottom" id="3aI-9D-wjz"/>
                     </layoutGuides>
                     <view key="view" contentMode="scaleToFill" id="4Vl-m9-kml">
-                        <rect key="frame" x="0.0" y="0.0" width="600" height="600"/>
+                        <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
                             <view contentMode="scaleToFill" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="A17-Eq-B5n">
@@ -25,13 +25,15 @@
                         </subviews>
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
                     </view>
-                    <tabBarItem key="tabBarItem" title="我的" id="VMS-dw-WkP"/>
+                    <tabBarItem key="tabBarItem" title="我的" image="TabBarHome" id="VMS-dw-WkP"/>
                     <simulatedTabBarMetrics key="simulatedBottomBarMetrics"/>
-                    <simulatedScreenMetrics key="simulatedDestinationMetrics" type="retina4_7.fullscreen"/>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="Ddb-fr-5Fb" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
             <point key="canvasLocation" x="930" y="-322"/>
         </scene>
     </scenes>
+    <resources>
+        <image name="TabBarHome" width="25" height="25"/>
+    </resources>
 </document>

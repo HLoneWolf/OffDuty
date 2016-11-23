@@ -10,7 +10,7 @@
         <scene sceneID="CRb-4d-u9U">
             <objects>
                 <tabBarController id="tIx-cY-zbW" sceneMemberID="viewController">
-                    <tabBar key="tabBar" contentMode="scaleToFill" id="Htd-0W-n5m">
+                    <tabBar key="tabBar" contentMode="scaleToFill" backgroundImage="tabbar" id="Htd-0W-n5m">
                         <rect key="frame" x="0.0" y="0.0" width="375" height="49"/>
                         <autoresizingMask key="autoresizingMask"/>
                         <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="calibratedWhite"/>
@@ -56,4 +56,7 @@
             <point key="canvasLocation" x="526" y="139"/>
         </scene>
     </scenes>
+    <resources>
+        <image name="tabbar" width="738" height="44"/>
+    </resources>
 </document>
