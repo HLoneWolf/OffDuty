@@ -9,11 +9,15 @@
 /* Begin PBXBuildFile section */
 		880142B2E4DEF3ED067ADFE9 /* Pods_OffDuty.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = EA409DAA7A16C5D2719B2165 /* Pods_OffDuty.framework */; };
 		E120D4E61DDF38230029CED7 /* UIButton-Extension.swift in Sources */ = {isa = PBXBuildFile; fileRef = E120D4E51DDF38230029CED7 /* UIButton-Extension.swift */; };
+		E124B0161DE9BEE800AF29FD /* NextHeadCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = E124B0141DE9BEE800AF29FD /* NextHeadCell.swift */; };
+		E124B0171DE9BEE800AF29FD /* NextHeadCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = E124B0151DE9BEE800AF29FD /* NextHeadCell.xib */; };
 		E126C2191DDD9AFA00EEFF39 /* Read.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = E126C2171DDD9AFA00EEFF39 /* Read.storyboard */; };
 		E126C21B1DDD9B0F00EEFF39 /* Topic.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = E126C21A1DDD9B0F00EEFF39 /* Topic.storyboard */; };
 		E126C21E1DDD9B2200EEFF39 /* MyProfile.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = E126C21C1DDD9B2200EEFF39 /* MyProfile.storyboard */; };
 		E126C2201DDDA4C800EEFF39 /* BSBNavi.swift in Sources */ = {isa = PBXBuildFile; fileRef = E126C21F1DDDA4C800EEFF39 /* BSBNavi.swift */; };
 		E126C2221DDDB02800EEFF39 /* ReadViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = E126C2211DDDB02800EEFF39 /* ReadViewController.swift */; };
+		E126FDAF1DE536FE007EC3F5 /* HeadTopCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = E126FDAD1DE536FE007EC3F5 /* HeadTopCell.swift */; };
+		E126FDB01DE536FE007EC3F5 /* HeadTopCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = E126FDAE1DE536FE007EC3F5 /* HeadTopCell.xib */; };
 		E13E604C1DDFF01300047BE5 /* ContentCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = E13E604A1DDFF01300047BE5 /* ContentCell.swift */; };
 		E13E604D1DDFF01300047BE5 /* ContentCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = E13E604B1DDFF01300047BE5 /* ContentCell.xib */; };
 		E13E604F1DDFF94700047BE5 /* CellHeadView.xib in Resources */ = {isa = PBXBuildFile; fileRef = E13E604E1DDFF94700047BE5 /* CellHeadView.xib */; };
@@ -27,16 +31,26 @@
 		E1D88BD61DDDDC3D004DA472 /* UIColor-Extension.swift in Sources */ = {isa = PBXBuildFile; fileRef = E1D88BD51DDDDC3D004DA472 /* UIColor-Extension.swift */; };
 		E1D88BDA1DDDE6CA004DA472 /* Common.swift in Sources */ = {isa = PBXBuildFile; fileRef = E1D88BD91DDDE6CA004DA472 /* Common.swift */; };
 		E1D88BDC1DDDE7B6004DA472 /* ContentViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = E1D88BDB1DDDE7B6004DA472 /* ContentViewController.swift */; };
+		E1EC8EAB1DEC09A700D27EB6 /* TopicViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = E1EC8EAA1DEC09A700D27EB6 /* TopicViewController.swift */; };
+		E1EC8EAD1DEC0AA300D27EB6 /* ContentTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = E1EC8EAC1DEC0AA300D27EB6 /* ContentTableViewController.swift */; };
+		E1EC8EAF1DEC355100D27EB6 /* NavigationBarView.xib in Resources */ = {isa = PBXBuildFile; fileRef = E1EC8EAE1DEC355100D27EB6 /* NavigationBarView.xib */; };
+		E1EC8EB11DEC366E00D27EB6 /* NaviBarView.swift in Sources */ = {isa = PBXBuildFile; fileRef = E1EC8EB01DEC366E00D27EB6 /* NaviBarView.swift */; };
+		E1EC8EB41DEC6D7B00D27EB6 /* SignPlaceHolderVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = E1EC8EB21DEC6D7B00D27EB6 /* SignPlaceHolderVC.swift */; };
+		E1EC8EB71DEC74DE00D27EB6 /* SettingViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = E1EC8EB61DEC74DE00D27EB6 /* SettingViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
 		012587C6DF4FA4876CDCF7B3 /* Pods-OffDuty.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-OffDuty.release.xcconfig"; path = "Pods/Target Support Files/Pods-OffDuty/Pods-OffDuty.release.xcconfig"; sourceTree = "<group>"; };
 		E120D4E51DDF38230029CED7 /* UIButton-Extension.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "UIButton-Extension.swift"; sourceTree = "<group>"; };
+		E124B0141DE9BEE800AF29FD /* NextHeadCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = NextHeadCell.swift; sourceTree = "<group>"; };
+		E124B0151DE9BEE800AF29FD /* NextHeadCell.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = NextHeadCell.xib; sourceTree = "<group>"; };
 		E126C2181DDD9AFA00EEFF39 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Read.storyboard; sourceTree = "<group>"; };
 		E126C21A1DDD9B0F00EEFF39 /* Topic.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = Topic.storyboard; sourceTree = "<group>"; };
 		E126C21D1DDD9B2200EEFF39 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/MyProfile.storyboard; sourceTree = "<group>"; };
 		E126C21F1DDDA4C800EEFF39 /* BSBNavi.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = BSBNavi.swift; sourceTree = "<group>"; };
 		E126C2211DDDB02800EEFF39 /* ReadViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ReadViewController.swift; sourceTree = "<group>"; };
+		E126FDAD1DE536FE007EC3F5 /* HeadTopCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = HeadTopCell.swift; sourceTree = "<group>"; };
+		E126FDAE1DE536FE007EC3F5 /* HeadTopCell.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = HeadTopCell.xib; sourceTree = "<group>"; };
 		E13E604A1DDFF01300047BE5 /* ContentCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ContentCell.swift; sourceTree = "<group>"; };
 		E13E604B1DDFF01300047BE5 /* ContentCell.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = ContentCell.xib; sourceTree = "<group>"; };
 		E13E604E1DDFF94700047BE5 /* CellHeadView.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = CellHeadView.xib; sourceTree = "<group>"; };
@@ -52,6 +66,12 @@
 		E1D88BD51DDDDC3D004DA472 /* UIColor-Extension.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "UIColor-Extension.swift"; sourceTree = "<group>"; };
 		E1D88BD91DDDE6CA004DA472 /* Common.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Common.swift; sourceTree = "<group>"; };
 		E1D88BDB1DDDE7B6004DA472 /* ContentViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ContentViewController.swift; sourceTree = "<group>"; };
+		E1EC8EAA1DEC09A700D27EB6 /* TopicViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TopicViewController.swift; sourceTree = "<group>"; };
+		E1EC8EAC1DEC0AA300D27EB6 /* ContentTableViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ContentTableViewController.swift; sourceTree = "<group>"; };
+		E1EC8EAE1DEC355100D27EB6 /* NavigationBarView.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = NavigationBarView.xib; sourceTree = "<group>"; };
+		E1EC8EB01DEC366E00D27EB6 /* NaviBarView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = NaviBarView.swift; sourceTree = "<group>"; };
+		E1EC8EB21DEC6D7B00D27EB6 /* SignPlaceHolderVC.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SignPlaceHolderVC.swift; sourceTree = "<group>"; };
+		E1EC8EB61DEC74DE00D27EB6 /* SettingViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SettingViewController.swift; sourceTree = "<group>"; };
 		E84C7FECB23B5BA3E24448B3 /* Pods-OffDuty.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-OffDuty.debug.xcconfig"; path = "Pods/Target Support Files/Pods-OffDuty/Pods-OffDuty.debug.xcconfig"; sourceTree = "<group>"; };
 		EA409DAA7A16C5D2719B2165 /* Pods_OffDuty.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_OffDuty.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
@@ -151,6 +171,8 @@
 		E126C1FE1DDD884E00EEFF39 /* Controller */ = {
 			isa = PBXGroup;
 			children = (
+				E1EC8EB21DEC6D7B00D27EB6 /* SignPlaceHolderVC.swift */,
+				E1EC8EB61DEC74DE00D27EB6 /* SettingViewController.swift */,
 			);
 			path = Controller;
 			sourceTree = "<group>";
@@ -212,6 +234,10 @@
 				E13E604A1DDFF01300047BE5 /* ContentCell.swift */,
 				E13E604B1DDFF01300047BE5 /* ContentCell.xib */,
 				E13E604E1DDFF94700047BE5 /* CellHeadView.xib */,
+				E126FDAD1DE536FE007EC3F5 /* HeadTopCell.swift */,
+				E126FDAE1DE536FE007EC3F5 /* HeadTopCell.xib */,
+				E124B0141DE9BEE800AF29FD /* NextHeadCell.swift */,
+				E124B0151DE9BEE800AF29FD /* NextHeadCell.xib */,
 			);
 			path = View;
 			sourceTree = "<group>";
@@ -255,6 +281,9 @@
 		E126C20A1DDD887700EEFF39 /* Controller */ = {
 			isa = PBXGroup;
 			children = (
+				E1EC8EAA1DEC09A700D27EB6 /* TopicViewController.swift */,
+				E1EC8EAC1DEC0AA300D27EB6 /* ContentTableViewController.swift */,
+				E1EC8EAE1DEC355100D27EB6 /* NavigationBarView.xib */,
 			);
 			path = Controller;
 			sourceTree = "<group>";
@@ -269,6 +298,7 @@
 		E126C20C1DDD887700EEFF39 /* View */ = {
 			isa = PBXGroup;
 			children = (
+				E1EC8EB01DEC366E00D27EB6 /* NaviBarView.swift */,
 			);
 			path = View;
 			sourceTree = "<group>";
@@ -349,6 +379,7 @@
 				TargetAttributes = {
 					E18622821DDD62E8005F2B4F = {
 						CreatedOnToolsVersion = 8.0;
+						DevelopmentTeam = 5YH8QWXPM8;
 						ProvisioningStyle = Automatic;
 					};
 				};
@@ -376,6 +407,8 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				E124B0171DE9BEE800AF29FD /* NextHeadCell.xib in Resources */,
+				E126FDB01DE536FE007EC3F5 /* HeadTopCell.xib in Resources */,
 				E18622911DDD62E8005F2B4F /* LaunchScreen.storyboard in Resources */,
 				E186228E1DDD62E8005F2B4F /* Assets.xcassets in Resources */,
 				E126C21E1DDD9B2200EEFF39 /* MyProfile.storyboard in Resources */,
@@ -384,6 +417,7 @@
 				E13E604D1DDFF01300047BE5 /* ContentCell.xib in Resources */,
 				E13E60531DDFFEDC00047BE5 /* TestCollectionViewController.xib in Resources */,
 				E13E604F1DDFF94700047BE5 /* CellHeadView.xib in Resources */,
+				E1EC8EAF1DEC355100D27EB6 /* NavigationBarView.xib in Resources */,
 				E186228C1DDD62E8005F2B4F /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -448,11 +482,18 @@
 				E120D4E61DDF38230029CED7 /* UIButton-Extension.swift in Sources */,
 				E1D88BD61DDDDC3D004DA472 /* UIColor-Extension.swift in Sources */,
 				E126C2221DDDB02800EEFF39 /* ReadViewController.swift in Sources */,
+				E1EC8EB71DEC74DE00D27EB6 /* SettingViewController.swift in Sources */,
+				E126FDAF1DE536FE007EC3F5 /* HeadTopCell.swift in Sources */,
+				E124B0161DE9BEE800AF29FD /* NextHeadCell.swift in Sources */,
+				E1EC8EAB1DEC09A700D27EB6 /* TopicViewController.swift in Sources */,
+				E1EC8EAD1DEC0AA300D27EB6 /* ContentTableViewController.swift in Sources */,
 				E1D88BDA1DDDE6CA004DA472 /* Common.swift in Sources */,
+				E1EC8EB11DEC366E00D27EB6 /* NaviBarView.swift in Sources */,
 				E1D88BDC1DDDE7B6004DA472 /* ContentViewController.swift in Sources */,
 				E126C2201DDDA4C800EEFF39 /* BSBNavi.swift in Sources */,
 				E13E60521DDFFEDC00047BE5 /* TestCollectionViewController.swift in Sources */,
 				E13E604C1DDFF01300047BE5 /* ContentCell.swift in Sources */,
+				E1EC8EB41DEC6D7B00D27EB6 /* SignPlaceHolderVC.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -591,6 +632,7 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				DEVELOPMENT_TEAM = 5YH8QWXPM8;
 				INFOPLIST_FILE = OffDuty/Info.plist;
 				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
@@ -606,6 +648,7 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				DEVELOPMENT_TEAM = 5YH8QWXPM8;
 				INFOPLIST_FILE = OffDuty/Info.plist;
 				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";

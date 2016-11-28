@@ -24,7 +24,7 @@ class TestCollectionViewController: UICollectionViewController {
         collectionView?.backgroundColor = UIColor.white
         collectionView?.frame = CGRect(x: 0, y: kStatusBarH, width: kScreenW, height: 200)
         
-        
+        view.backgroundColor = UIColor.white
       
         // Do any additional setup after loading the view.
     }
