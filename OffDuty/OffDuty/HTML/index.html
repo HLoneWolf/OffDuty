@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+
+    <style>
+        #div1,#div2{
+            font-size: 20px;
+            font-style: italic;
+        }
+        #div1,#div11{
+            background-color: rebeccapurple;
+        }
+        #div11{
+            background-color: yellow;
+        }
+    </style>
+
+</head>
+<body>
+    <p id="pid">
+        I am p
+    </p>
+    <div id="div1">
+        Hello div1
+        <div id="div11">
+            Hello div11
+        </div>
+    </div>
+
+    <div id="div2">
+        Hello div2
+    </div>
+
+
+
+    <button onclick="btnClick();">访问相册</button>
+    <script>
+        function btnClick(){
+            window.location.href ='lyl://btnClick';
+        }
+    </script>
+</body>
+
+</html>
